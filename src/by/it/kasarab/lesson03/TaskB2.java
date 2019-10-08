@@ -1,5 +1,5 @@
 package by.it.kasarab.lesson03;
-
+import java.util.Scanner;
 /*
 Lesson 03. Task B2. Нужно написать программу, которая вводит три числа  a b c типа int с клавиатуры
 и вычисляет корни квадратного уравнения a*a*x + b*x + c = 0:
@@ -30,5 +30,14 @@ Lesson 03. Task B2. Нужно написать программу, котора
 
 */
 class TaskB2 {
-
+ /*   public static void main(String[] args) {
+       }
+         static double dis(int a, int b, int c,){
+             System.out.print("Insert  3 numbers");
+             Scanner sc = new Scanner(System.in);
+             int a = sc.nextInt();
+             int b = sc.nextInt();
+             int c = sc.nextInt();
+        if
+         }*/
 }
