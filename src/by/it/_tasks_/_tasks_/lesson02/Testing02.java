@@ -1,4 +1,4 @@
-package by.it.kasarab.kasarab_l02;
+package by.it._tasks_._tasks_.lesson02;
 
 import org.junit.Test;
 

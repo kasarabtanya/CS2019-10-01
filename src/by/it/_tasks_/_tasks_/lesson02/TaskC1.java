@@ -1,4 +1,4 @@
-package by.it.kasarab.kasarab_l02;
+package by.it._tasks_._tasks_.lesson02;
 
 /* Нужно написать программу, которая вводит два числа с клавиатуры
 и выводит их сумму на экран в виде
@@ -10,16 +10,10 @@ package by.it.kasarab.kasarab_l02;
 Sum = 60
 
 */
-import java.util.Scanner;
 class TaskC1 {
-    public static void main(String[] args) {
-        System.out.print("Insert  2 numbers");
-        Scanner s = new Scanner(System.in);
-        int a = s.nextInt();
-        int b = s.nextInt();
-        int c = a + b;
 
-        System.out.println("Sum = " + c);
 
-    }
+
+
+
 }

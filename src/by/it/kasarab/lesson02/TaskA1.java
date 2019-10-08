@@ -1,4 +1,4 @@
-package by.it.kasarab.kasarab_l02;
+package by.it.kasarab.lesson02;
 /*
 напишите программу которая выводит на экран
 Hello world!

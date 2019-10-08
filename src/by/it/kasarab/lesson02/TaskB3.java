@@ -1,4 +1,4 @@
-package by.it.kasarab.kasarab_l02;
+package by.it.kasarab.lesson02;
 /*
         Уберите комментарии с части кода, чтобы на экран вывелось сообщение «C Новым Годом».
 

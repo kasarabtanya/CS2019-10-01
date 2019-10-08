@@ -1,4 +1,4 @@
-package by.it.kasarab.kasarab_l02;
+package by.it.kasarab.kasarab_l01.kasarab_l02;
 /*
 Подойдет только 20
 В методе main расставь правильно знаки плюс и минус, чтобы значение переменной result получилось равным 20.

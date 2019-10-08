@@ -1,6 +1,5 @@
-package by.it.kasarab.kasarab_l02;
+package by.it.kasarab.lesson02;
 import java.util.Scanner;
-import java.lang.Math;
 
 /* Нужно написать программу, которая вводит два числа с клавиатуры
 и 4 раза выводит их сумму с обозначением системы счисления на экран в

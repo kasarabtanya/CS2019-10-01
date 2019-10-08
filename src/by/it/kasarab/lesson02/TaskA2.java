@@ -1,4 +1,4 @@
-package by.it.kasarab.kasarab_l02;
+package by.it.kasarab.lesson02;
 
 /*
 напишите тело main программы которая выводит на экран 5 строк

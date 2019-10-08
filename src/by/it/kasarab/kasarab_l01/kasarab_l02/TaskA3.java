@@ -1,4 +1,4 @@
-package by.it.kasarab.kasarab_l02;
+package by.it.kasarab.kasarab_l01.kasarab_l02;
 /*
 Измените переменные и строку вывода в программе так,
 чтобы она рассчитывала и печатала следующее выражение
