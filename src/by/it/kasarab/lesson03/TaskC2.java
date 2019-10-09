@@ -1,4 +1,5 @@
 package by.it.kasarab.lesson03;
+import java.util.Scanner;
 /*
     Сумма цифр четырехзначного числа
 
@@ -19,15 +20,29 @@ package by.it.kasarab.lesson03;
     4. Метод sumDigitsInNumber не должен ничего выводить на экран.
     5. Метод sumDigitsInNumber должен правильно возвращать сумму всех цифр в числе number.
 */
-//public class TaskC2 {
+public class TaskC2 {
+
+    static int sumDigitsInNumber(int number) {
+        int a, b,c,d,sum;
+     //   System.out.print("Insert  4-digit number");
+     //   Scanner sc = new Scanner(System.in);
+     //  number = sc.nextInt();
 //static int sumDigitsInNumber(int number){
+        a=number/1000;
+        b= (number-(a*1000))/100;
+        c=(number-(a*1000)-(b*100))/10;
+        d=number-(a*1000)-(b*100)-(c*10);
+        number = 5467;
+      return sum=a+b+c+d;
 
-//}}
+  //      if (0 >=a && a>=10) System.out.println ("false number");
 
+//return (sum);
 
+                }
 
-//    public static void main(String[] args) {
-//        System.out.println(sumDigitsInNumber(5467));
-//    }
+    public static void main(String[] args) {
 
-//}
+    }
+
+   }

@@ -34,7 +34,7 @@ class TaskB2 {
 
     public static void main(String[] args){
 
-  // public static void dis(String[] args) {
+  //  static double dis() {
         System.out.print("Insert  3 numbers");
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
