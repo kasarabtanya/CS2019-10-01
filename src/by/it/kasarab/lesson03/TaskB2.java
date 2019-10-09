@@ -30,14 +30,29 @@ Lesson 03. Task B2. Нужно написать программу, котора
 
 */
 class TaskB2 {
- /*   public static void main(String[] args) {
-       }
-         static double dis(int a, int b, int c,){
-             System.out.print("Insert  3 numbers");
-             Scanner sc = new Scanner(System.in);
-             int a = sc.nextInt();
-             int b = sc.nextInt();
-             int c = sc.nextInt();
-        if
-         }*/
-}
+    int a,b,c,d;
+
+    public static void main(String[] args){
+
+  // public static void dis(String[] args) {
+        System.out.print("Insert  3 numbers");
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+
+        int d = b * b - 4 * a * c;
+
+        double x1 = (-b + Math.sqrt(d)) / (2 * a);
+        double x2 = (-b - Math.sqrt(d)) / (2 * a);
+
+       // System.out.println(d);// убрать в конце. это для проверки
+
+        if (d < 0) System.out.print("Отрицательный дискриминант");
+        if (d == 0) System.out.print(x1);
+        if (d > 0) System.out.print(x1 + " " + x2);
+            }
+    }
+
+
+
