@@ -30,29 +30,27 @@ Lesson 03. Task B2. Нужно написать программу, котора
 
 */
 class TaskB2 {
-    int a,b,c,d;
+int a,b,c;
 
-    public static void main(String[] args){
+   public static void main (String[] args){
+       System.out.println("Insert  3 numbers");
+       Scanner sc = new Scanner(System.in);
+       int a = sc.nextInt();
+       int b = sc.nextInt();
+       int c = sc.nextInt();
 
-  //  static double dis() {
-        System.out.print("Insert  3 numbers");
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        int c = sc.nextInt();
+        double x1 = (-b + Math.sqrt(b * b - 4 * a * c)) / (2 * a);
+        double x2 = (-b - Math.sqrt(b * b - 4 * a * c)) / (2 * a);
 
-        int d = b * b - 4 * a * c;
+       if (( b * b - 4 * a * c) < 0) System.out.println("Отрицательный дискриминант");
+       if (( b * b - 4 * a * c) == 0) System.out.println(x1);
+       if (( b * b - 4 * a * c) > 0) System.out.println(x1 + " " + x2);
 
-        double x1 = (-b + Math.sqrt(d)) / (2 * a);
-        double x2 = (-b - Math.sqrt(d)) / (2 * a);
+       //return x1 ,x2;
+   }
+        //System.out.println(d);// убрать в конце. это для проверки
 
-       // System.out.println(d);// убрать в конце. это для проверки
-
-        if (d < 0) System.out.print("Отрицательный дискриминант");
-        if (d == 0) System.out.print(x1);
-        if (d > 0) System.out.print(x1 + " " + x2);
-            }
-    }
+}
 
 
 
