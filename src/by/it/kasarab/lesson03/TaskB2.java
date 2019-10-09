@@ -1,5 +1,7 @@
 package by.it.kasarab.lesson03;
+
 import java.util.Scanner;
+
 /*
 Lesson 03. Task B2. Нужно написать программу, которая вводит три числа  a b c типа int с клавиатуры
 и вычисляет корни квадратного уравнения a*a*x + b*x + c = 0:
@@ -30,26 +32,26 @@ Lesson 03. Task B2. Нужно написать программу, котора
 
 */
 class TaskB2 {
-int a,b,c;
+    public static double dis(int a, int b, int c) {
+        return (b * b - 4 * a * c);
+    }
 
-   public static void main (String[] args){
-       System.out.println("Insert  3 numbers");
-       Scanner sc = new Scanner(System.in);
-       int a = sc.nextInt();
-       int b = sc.nextInt();
-       int c = sc.nextInt();
+    public static void main(String[] args) {
+        System.out.println("Input 3 numbers");
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
 
-        double x1 = (-b + Math.sqrt(b * b - 4 * a * c)) / (2 * a);
-        double x2 = (-b - Math.sqrt(b * b - 4 * a * c)) / (2 * a);
+        double d = dis(a, b, c);
 
-       if (( b * b - 4 * a * c) < 0) System.out.println("Отрицательный дискриминант");
-       if (( b * b - 4 * a * c) == 0) System.out.println(x1);
-       if (( b * b - 4 * a * c) > 0) System.out.println(x1 + " " + x2);
+        double x1 = (-b + Math.sqrt(d)) / (2 * a);
+        double x2 = (-b - Math.sqrt(d)) / (2 * a);
 
-       //return x1 ,x2;
-   }
-        //System.out.println(d);// убрать в конце. это для проверки
-
+        if (d < 0) System.out.println("Отрицательный дискриминант");
+        if (d == 0) System.out.println(x1);
+        if (d > 0) System.out.println(x1 + " " + x2);
+    }
 }
 
 
