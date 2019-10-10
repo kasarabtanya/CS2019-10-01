@@ -23,11 +23,11 @@ Lesson 03. Task A2. Стихотворение
 class TaskA2 {
     public static void main(String[] args) {
         String a = "Мое любимое стихотворение:\n";
-        String b="Yo para todo viaje\n";
-        String c="siempre sobre la madera\n";
-        String d ="de mi vagon de tercera\n";
-        String e="voy ligero de equipaje.";
-        System.out.print(a+b+c+d+e);
+        String b = "Yo para todo viaje\n";
+        String c = "siempre sobre la madera\n";
+        String d = "de mi vagon de tercera\n";
+        String e = "voy ligero de equipaje.";
+        System.out.print(a + b + c + d + e);
 
     }
 
