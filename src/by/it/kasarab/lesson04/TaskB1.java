@@ -26,18 +26,19 @@ package by.it.kasarab.lesson04;
 
 */
 
-/*import java.util.Scanner;
+import java.util.Scanner;
 public class TaskB1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int year = sc.nextInt();
-        if (year%4==0 &  year%400==0)  {
-            System.out.println("количество дней в году: 366"); }
+        if (year%4!=0){
+                System.out.println("количество дней в году: 365"); }
         else {
-
-        System.out.println("количество дней в году: 365");}
-
-                }
+            if (year%100==0 & year%400!=0) {
+                System.out.println("количество дней в году: 365"); }
+            else {
+                System.out.println("количество дней в году: 366");}
+        }
+         }
     }
 
-*/
