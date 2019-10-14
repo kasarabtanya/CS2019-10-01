@@ -41,9 +41,6 @@ import java.util.Scanner;
 
 public class TaskC1 {
 
-    /*   int result, month;
-       int sum;
-   */
     public static String getMonthName(int month) {
         switch (month) {
             case 0:
@@ -89,29 +86,7 @@ public class TaskC1 {
         }
         return 0.0;
     }
-/*
-        private double getAmount(int sum){
-    if (month==6 || month ==7 ||month ==8)
-    {  return (double) sum;}
-    if (month>=1 &  month <=12)
-            {  return (double) sum*1.5;}
-            else return 0.0; }
 
-    public void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Какую вы хотите зарплату в $$$?");
-       sum = sc.nextInt();
-
-        if (sum <= 300 || sum >= 3000) System.out.println("Мы вам перезвоним!");
-        else
-            { for (month=0; month<=14; month++){
-                System.out.println("За "+ getName() +" начислено " + "$" + (double) getAmount());
-
-     if (getAmount()==666) month=16;
-            } } }
-
-
-} */
 
     public static void main(String[] args) {
         int month, result;
