@@ -9,13 +9,13 @@ package by.it.kasarab.lesson02;
 */
 
 class TaskA2 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         String s = "Я начинаю изучать Java!";
-  int c;
-  for (c=0; c<5; c=c+1)
-System.out.println (s);
+        int c;
+        for (c = 0; c < 5; c = c + 1)
+            System.out.println(s);
 
-}
+    }
 
 }
 

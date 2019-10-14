@@ -1,4 +1,5 @@
 package by.it.kasarab.lesson02;
+
 import java.util.Scanner;
 /*
 Ускорение свободного падения на Земле и Марсе таково:
@@ -30,14 +31,14 @@ import java.util.Scanner;
 
 class TaskC3 {
 
-    public static double getWeight(int weight){
+    public static double getWeight(int weight) {
         double marsw = weight / 9.81 * 3.86;
         marsw = Math.round(marsw * 100.0) / 100.0;
         return marsw;
     }
 
     public static void main(String[] args) {
-       System.out.print("Insert weight on Earth");
+        System.out.print("Insert weight on Earth");
         Scanner s = new Scanner(System.in);
         int weight = s.nextInt();
         System.out.println(TaskC3.getWeight(weight));

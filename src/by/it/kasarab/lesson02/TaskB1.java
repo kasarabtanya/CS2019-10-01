@@ -18,16 +18,17 @@ int i=sc.nextInt();
 4. Программа должна выводить квадрат считанного числа.
 
  */
+
 import java.util.Scanner;
 
 class TaskB1 {
 
     public static void main(String[] args) {
         System.out.print("Insert number");
-            Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
-int b= a*a;
-System.out.print(b);
+        int b = a * a;
+        System.out.print(b);
 
-}
+    }
 }

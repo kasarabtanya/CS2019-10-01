@@ -10,6 +10,7 @@ package by.it.kasarab.lesson02;
 Sum = 60
 
 */
+
 import java.util.Scanner;
 
 class TaskC1 {

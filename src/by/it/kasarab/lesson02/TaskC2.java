@@ -1,4 +1,5 @@
 package by.it.kasarab.lesson02;
+
 import java.util.Scanner;
 
 /* Нужно написать программу, которая вводит два числа с клавиатуры
@@ -23,14 +24,14 @@ class TaskC2 {
         int a = s.nextInt();
         int b = s.nextInt();
         int c = a + b;
-            System.out.println("DEC:" + a + "+" + b + "=" + c);
-            System.out.println("BIN:" + Integer.toBinaryString(a)
-                    + "+" + Integer.toBinaryString(b)
-                    + "=" + Integer.toBinaryString(c) );
-            System.out.println("HEX:" + Integer.toHexString(a)
+        System.out.println("DEC:" + a + "+" + b + "=" + c);
+        System.out.println("BIN:" + Integer.toBinaryString(a)
+                + "+" + Integer.toBinaryString(b)
+                + "=" + Integer.toBinaryString(c));
+        System.out.println("HEX:" + Integer.toHexString(a)
                 + "+" + Integer.toHexString(b)
                 + "=" + Integer.toHexString(c));
-            System.out.println("OCT:" + Integer.toOctalString(a)
+        System.out.println("OCT:" + Integer.toOctalString(a)
                 + "+" + Integer.toOctalString(b)
                 + "=" + Integer.toOctalString(c));
     }
