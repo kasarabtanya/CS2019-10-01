@@ -28,37 +28,40 @@ package by.it.kasarab.lesson04;
  */
 
 import java.util.Scanner;
+
 public class TaskC2 {
     int day, month;
 
- public static int getDay(int month, int day){
-     switch (month){
-         case 1:
-             return day;
-         case 2:
-             return day+31;
-         case 3:
-             return day+31+28;
-         case 4:
-             return day+31+28+31;
-         case 5:
-             return day+31+28+31+30;
-         case 6:
-             return day+31+28+31+30+31;
-         case 7:
-             return day+31+28+31+30+31+30;
-         case 8:
-             return day+31+28+31+30+31+30+31;
-         case 9:
-             return day+31+28+31+30+31+30+31+31;
-         case 10:
-             return day+31+28+31+30+31+30+31+31+30;
-         case 11:
-             return day+31+28+31+30+31+30+31+31+30+31;
-         case 12:
-             return day+31+28+31+30+31+30+31+31+30+31+30;
-         default:
-             return 0;}}
+    public static int getDay(int month, int day) {
+        switch (month) {
+            case 1:
+                return day;
+            case 2:
+                return day + 31;
+            case 3:
+                return day + 31 + 28;
+            case 4:
+                return day + 31 + 28 + 31;
+            case 5:
+                return day + 31 + 28 + 31 + 30;
+            case 6:
+                return day + 31 + 28 + 31 + 30 + 31;
+            case 7:
+                return day + 31 + 28 + 31 + 30 + 31 + 30;
+            case 8:
+                return day + 31 + 28 + 31 + 30 + 31 + 30 + 31;
+            case 9:
+                return day + 31 + 28 + 31 + 30 + 31 + 30 + 31 + 31;
+            case 10:
+                return day + 31 + 28 + 31 + 30 + 31 + 30 + 31 + 31 + 30;
+            case 11:
+                return day + 31 + 28 + 31 + 30 + 31 + 30 + 31 + 31 + 30 + 31;
+            case 12:
+                return day + 31 + 28 + 31 + 30 + 31 + 30 + 31 + 31 + 30 + 31 + 30;
+            default:
+                return 0;
+        }
+    }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -66,4 +69,5 @@ public class TaskC2 {
         int day = sc.nextInt();
         int month = sc.nextInt();
         System.out.println(getDay(month, day));
-    } }
+    }
+}
