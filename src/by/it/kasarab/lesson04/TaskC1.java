@@ -87,10 +87,8 @@ public class TaskC1 {
         return 0.0;
     }
 
-
     public static void main(String[] args) {
-        int month, result;
-
+        int month ;
         Scanner sc = new Scanner(System.in);
         System.out.println("Какую вы хотите зарплату в $$$?");
         int sum = sc.nextInt();
@@ -99,9 +97,16 @@ public class TaskC1 {
             System.out.println("Мы вам перезвоним!");
         } else {
             for (month = 0; month <= 14; month++) {
-                result = sum;
-                System.out.println("За " + getMonthName(month) + " начислено $" + getAmount(month, sum));
+               System.out.println("За " + getMonthName(month) + " начислено $" + getAmount(month, sum));
                 if (getAmount(month, sum) == 666.0) return;
+
+            }
+        }
+
+    }
+}
+
+
 /*
                 if (month == 0) {
                     result = 0;
@@ -155,13 +160,6 @@ public class TaskC1 {
                     break;
                 }
 */
-            }
-        }
-
-    }
-}
-
-
 
 
 

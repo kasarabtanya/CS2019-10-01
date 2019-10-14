@@ -25,7 +25,7 @@ package by.it.kasarab.lesson04;
 
 
 public class TaskC3 {
-    int a = 1, b = 1, res;
+    int a = 1, b = 1;
 
     private static String getSimple(int a) {
 

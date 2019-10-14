@@ -24,15 +24,40 @@ package by.it.kasarab.lesson04;
 
  */
 
-import java.io.IOException;
 import java.util.Scanner;
 
 public class TaskA2 {
+
+    private static String getWd(int a){
+        switch (a){
+            case 1 :
+                return "понедельник";
+            case 2 :
+                return "вторник";
+            case 3 :
+                return "среда";
+            case 4 :
+               return "четверг";
+            case 5 :
+               return "пятница";
+            case 6 :
+               return "суббота";
+            case 7:
+                return "воскресенье";
+            default :
+               return "такого дня недели не существует";
+    }
+    }
     public static void main(String[] args){
         System.out.println("Type the number between 1 and 7");
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
-    switch (a){
+        System.out.println(getWd(a));
+              }
+    }
+
+
+/*    switch (a){
           case 1 :
               if (a == 1) System.out.println("понедельник");
               break;
@@ -56,11 +81,4 @@ public class TaskA2 {
               break;
           default :
               System.out.println("такого дня недели не существует");
-               }
-
-              }
-
-    }
-
-
-
+               } */
