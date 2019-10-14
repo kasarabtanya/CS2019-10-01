@@ -25,68 +25,73 @@ package by.it.kasarab.lesson04;
 
 
 public class TaskC3 {
-    int a = 1, b=1, res;
+    int a = 1, b = 1, res;
 
     private static String getSimple(int a) {
 
-            switch (a) {
-                case 1:
-                    return "один";
-                case 2:
-                    return "два";
-                case 3:
-                    return "три";
-                case 4:
-                    return "четыре";
-                case 5:
-                    return "пять";
-                case 6:
-                    return "шесть";
-                case 7:
-                    return "семь";
-                case 8:
-                    return "восемь";
-                case 9:
-                    return "девять";
+        switch (a) {
+            case 1:
+                return "один";
+            case 2:
+                return "два";
+            case 3:
+                return "три";
+            case 4:
+                return "четыре";
+            case 5:
+                return "пять";
+            case 6:
+                return "шесть";
+            case 7:
+                return "семь";
+            case 8:
+                return "восемь";
+            case 9:
+                return "девять";
 
-            }
+        }
 
-        return getSimple(a);}
+        return getSimple(a);
+    }
 
 
     private static String getTeens(int a) {
 
-            switch (a) {
-                case 10:
-                    return "десять";
-                case 11:
-                    return "одиннадцать";
-                case 12:
-                    return "двенадцать";
-                case 13:
-                    return "тринадцать";
-                case 14:
-                    return "четырнадцать";
-                case 15:
-                    return "пятнадцать";
-                case 16:
-                    return "шестнадцать";
-                case 17:
-                    return "семнадцать";
-                case 18:
-                    return "восемнадцать";
-                case 19:
-                    return "девятнадцать";
-            }
+        switch (a) {
+            case 10:
+                return "десять";
+            case 11:
+                return "одиннадцать";
+            case 12:
+                return "двенадцать";
+            case 13:
+                return "тринадцать";
+            case 14:
+                return "четырнадцать";
+            case 15:
+                return "пятнадцать";
+            case 16:
+                return "шестнадцать";
+            case 17:
+                return "семнадцать";
+            case 18:
+                return "восемнадцать";
+            case 19:
+                return "девятнадцать";
+        }
 
 
-return getTeens(a);
+        return getTeens(a);
     }
 
     private static String getDouble(int a) {
 
-        if (a >= 1 & a <= 9) {  return   getSimple(a);}
-        if  (a >= 10 & a <= 19) { return getTeens(a);}
+        if (a >= 1 & a <= 9) {
+            return getSimple(a);
+        }
+        if (a >= 10 & a <= 19) {
+            return getTeens(a);
+        }
         if (a >= 20 & a <= 100) {
             if (a % 10 == 0) {
                 switch (a) {
@@ -117,20 +122,23 @@ return getTeens(a);
             }
         }
 
-   return getDouble(a); }
+        return getDouble(a);
+    }
 
     public static void main(String[] args) {
-        int c=1, b=1 ;
-        while (c <= 10 && b<=10) {
+        int c = 1, b = 1;
+        while (c <= 10 && b <= 10) {
 
             for (b = 1; b <= 10; b++) {
 
-        System.out.println(getDouble(c) + " умножить на " + getDouble(b) + " равно " + getDouble(c * b)); }
-    c++;
-    b=1;
-    }
+                System.out.println(getDouble(c) + " умножить на " + getDouble(b) + " равно " + getDouble(c * b));
+            }
+            c++;
+            b = 1;
+        }
 
-    } }
+    }
+}
 
 
 
