@@ -50,10 +50,8 @@ public class TaskC3 {
                 return "девять";
 
         }
-
         return getSimple(a);
     }
-
 
     private static String getTeens(int a) {
 
@@ -79,8 +77,6 @@ public class TaskC3 {
             case 19:
                 return "девятнадцать";
         }
-
-
         return getTeens(a);
     }
 
@@ -116,12 +112,10 @@ public class TaskC3 {
                 }
 
             }
-
             if (a % 10 != 0) {
                 return getDouble(a / 10 * 10) + " " + getSimple(a % 10);
             }
         }
-
         return getDouble(a);
     }
 
@@ -136,7 +130,6 @@ public class TaskC3 {
             c++;
             b = 1;
         }
-
     }
 }
 

@@ -23,18 +23,19 @@ package by.it.kasarab.lesson04;
 
 
  */
+
 import java.util.Scanner;
 
 public class TaskB3 {
- public static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-        int a = 1, b=1;
-            for (a = 1; a <= num; ) {
-             System.out.print(a + ",");
-             b++;
-             a=a+b;
-            }
+        int a = 1, b = 1;
+        for (a = 1; a <= num; ) {
+            System.out.print(a + ",");
+            b++;
+            a = a + b;
+        }
 
-}
+    }
 }

@@ -38,12 +38,7 @@ public class TaskC2 {
         return a + b + c + d;
 
         //      if (0 >=a && a>=10) System.out.println ("false number");
-
-
     }
-
-    public static void main(String[] args) {
-
-    }
+    public static void main(String[] args) {     }
 
 }

@@ -69,5 +69,6 @@ public class TaskC2 {
         int day = sc.nextInt();
         int month = sc.nextInt();
         System.out.println(getDay(month, day));
+
     }
 }

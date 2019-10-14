@@ -28,7 +28,6 @@ class TaskA2 {
         String d = "de mi vagon de tercera\n";
         String e = "voy ligero de equipaje.";
         System.out.print(a + b + c + d + e);
-
     }
 
 }

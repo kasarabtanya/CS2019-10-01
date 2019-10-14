@@ -25,16 +25,16 @@ package by.it.kasarab.lesson04;
 
  */
 public class TaskA1 {
-    public static void main (String[] args){
+    public static void main(String[] args) {
         int a;
-    for (a=1;a<=10;a++){
-        if (a!=3 & a!=9)
-            System.out.println("Я изучаю программирование.");
-        else System.out.println("Меня интересует высокая зарплата!");
+        for (a = 1; a <= 10; a++) {
+            if (a != 3 & a != 9)
+                System.out.println("Я изучаю программирование.");
+            else System.out.println("Меня интересует высокая зарплата!");
         }
     }
 
-    }
+}
 
 
 

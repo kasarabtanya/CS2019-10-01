@@ -28,33 +28,34 @@ import java.util.Scanner;
 
 public class TaskA2 {
 
-    private static String getWd(int a){
-        switch (a){
-            case 1 :
+    private static String getWd(int a) {
+        switch (a) {
+            case 1:
                 return "понедельник";
-            case 2 :
+            case 2:
                 return "вторник";
-            case 3 :
+            case 3:
                 return "среда";
-            case 4 :
-               return "четверг";
-            case 5 :
-               return "пятница";
-            case 6 :
-               return "суббота";
+            case 4:
+                return "четверг";
+            case 5:
+                return "пятница";
+            case 6:
+                return "суббота";
             case 7:
                 return "воскресенье";
-            default :
-               return "такого дня недели не существует";
+            default:
+                return "такого дня недели не существует";
+        }
     }
-    }
-    public static void main(String[] args){
+
+    public static void main(String[] args) {
         System.out.println("Type the number between 1 and 7");
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         System.out.println(getWd(a));
-              }
     }
+}
 
 
 /*    switch (a){

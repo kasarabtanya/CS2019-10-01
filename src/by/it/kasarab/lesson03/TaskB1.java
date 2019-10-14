@@ -24,7 +24,7 @@ float f - присваивание в десятичном формате
 */
 
 strictfp class TaskB1 {
-    public static  void main(String[] args) {
+    public static void main(String[] args) {
         double d = 111.111; //double d - присваивание в десятичном формате (111.111)
         byte b = 0b111; //byte b - присваивание в двоичном формате (111)
         long o = 0111; //long o - присваивание в восьмеричном формате (111)

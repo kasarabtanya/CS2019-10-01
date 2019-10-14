@@ -34,8 +34,3 @@ class TaskC1 {
     }
 }
 
-//    public static void main(String[] args) {
-//        System.out.println((double)convertCelsiumToFahrenheit(40));
-
-
-
