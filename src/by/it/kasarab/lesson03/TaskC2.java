@@ -25,21 +25,20 @@ import java.util.Scanner;
 public class TaskC2 {
 
     static int sumDigitsInNumber(int number) {
-        int a, b, c, d, sum;
+        int a, b, c, d;
         //   System.out.print("Insert  4-digit number");
         //   Scanner sc = new Scanner(System.in);
         //  number = sc.nextInt();
-//static int sumDigitsInNumber(int number){
+
         a = number / 1000;
         b = (number - (a * 1000)) / 100;
         c = (number - (a * 1000) - (b * 100)) / 10;
         d = number - (a * 1000) - (b * 100) - (c * 10);
         number = 5467;
-        return sum = a + b + c + d;
+        return a + b + c + d;
 
         //      if (0 >=a && a>=10) System.out.println ("false number");
 
-//return (sum);
 
     }
 
