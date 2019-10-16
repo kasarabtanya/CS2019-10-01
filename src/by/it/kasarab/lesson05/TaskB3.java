@@ -26,7 +26,6 @@ public class TaskB3 {
     public static void main(String[] args) {
         int q, z, first = 0, last = 0;
         Scanner sc = new Scanner(System.in);
-
         int[] m = new int[10];
 
         for (int i = 0; i < m.length; i++)
@@ -40,16 +39,11 @@ public class TaskB3 {
                     int t = m[b - 1];
                     m[b - 1] = m[b];
                     m[b] = t;
-
                 }
-
             }
       /*  for (int a = 0; a < m.length; a++) {
-
-            System.out.print(m[a] + " ");
-        }
+            System.out.print(m[a] + " "); }
         System.out.print("q= " + q + " z= " + z); */
-
         for (int a = 0; a < m.length; a++) {
             if (m[a] == q) {
                 first = a;
@@ -58,12 +52,9 @@ public class TaskB3 {
                 last = a;
             }
         }
-
         System.out.println("Index of first element=" + first);
         System.out.println("Index of last element=" + last);
     }
-
-
 }
 
 

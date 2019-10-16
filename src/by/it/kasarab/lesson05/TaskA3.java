@@ -20,19 +20,15 @@ public class TaskA3 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int min = 0, max = 0;
+        int min, max;
         int[] nums = new int[10];
 
         for (int i = 0; i < nums.length; i++)
             nums[i] = sc.nextInt();
-
+        min = max = nums[0];
         for (int i = 0; i < nums.length; i++) {
-
             if (min > nums[i])
                 min = nums[i];
-        }
-
-        for (int i = 0; i < nums.length; i++) {
 
             if (max < nums[i])
                 max = nums[i];
