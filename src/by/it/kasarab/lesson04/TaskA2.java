@@ -57,29 +57,3 @@ public class TaskA2 {
     }
 }
 
-
-/*    switch (a){
-          case 1 :
-              if (a == 1) System.out.println("понедельник");
-              break;
-          case 2 :
-            if(a==2)  System.out.println("вторник");
-              break;
-          case 3 :
-             if (a==3) System.out.println("среда");
-              break;
-          case 4 :
-             if (a==4) System.out.println("четверг");
-              break;
-          case 5 :
-            if (a==5)  System.out.println("пятница");
-              break;
-          case 6 :
-            if (a==6)   System.out.println("суббота");
-             break;
-          case 7:
-            if (a==7)   System.out.println("воскресенье");
-              break;
-          default :
-              System.out.println("такого дня недели не существует");
-               } */

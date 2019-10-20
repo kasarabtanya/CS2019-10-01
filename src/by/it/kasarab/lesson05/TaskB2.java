@@ -44,16 +44,5 @@ public class TaskB2 {
     }
 }
 
-      /*  System.out.print("a=[");
-        for (int i = 0; i < a.length-1 ; i++) {
-    System.out.print(a[i]+", ");}
-        System.out.println(a[ a.length-1 ]+"]");
-
-        System.out.print("b=[");
-        for (int i = 0; i < b.length-1 ; i++) {
-            System.out.print(b[i]+", ");}
-        System.out.println(b[ b.length-1 ]+"]"); */
-
-
 
 

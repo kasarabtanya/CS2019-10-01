@@ -135,18 +135,4 @@ public class TaskC3 {
 
 
 
-   /*
-
-        int a=1, b=1 ;
-
-        while (a <= 10 & b<=10) {
-
-            for (b = 1; b <= 10; b++) {
-               System.out.println(a+ " умножить на "+ b + " равно "+a*b);}
-        a++;
-        b=1;
-            } */
-
-
-
 
