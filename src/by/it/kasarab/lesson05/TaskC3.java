@@ -12,19 +12,48 @@ public class TaskC3 {
     //Напишите тут ваш код
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        //     int[] an = new int[20];
-        //     for (int i = 0; i < an.length; i++) {
-        //       an[i] = sc.nextInt();
-        //     } // ввод с клавиатуры */
+        //   Scanner sc = new Scanner(System.in);
+       /*      int[] an = new int[20];
+        // ввод с клавиатуры
+        for (int i = 0; i < 20; i++) {
+            an[i] = sc.nextInt();
+        }   */
         //  int x = 0;
-        int[] an = {11, 20, 41, 2, 6, 7, 99, 12, 15, 32, 3, 19, 5, 23, 24, 42, 90, 16, 4, 11, 1};
+        int[] an = {3, 9, 1, 4, 666, -2, 665, -1, 0, 9, 8, 3, 8, 4, 5, 1, 0, 7, 5, 7};
 
-        System.out.print("original array is ");
+        System.out.print("is ");
         for (int i = 0; i < an.length; i++)
             System.out.print(an[i] + " ");
         System.out.println();
-//
+
+        // for (int a = 1; a < an.length; a++)
+        for (int b = 0; b < an.length; b++) {
+            if (an[b] < an[b + 1]) {
+                int t = an[b + 1];
+                an[b + 1] = an[b];
+                an[b] = t;
+            }
+
+             /*   for (int x = 0; x < an.length;x++) {
+                    if (an[x] > an[x + 1]) {
+                        int t = an[x + 1];
+                        an[x + 1] = an[x];
+                        an[x] = t;
+
+                    }
+                // }  */
+
+            for (int i = 0; i < 20; i++) {
+                System.out.print(an[i] + " ");
+            }
+            System.out.println();
+        }
+
+    }
+}
+
+
+
 //int l=an[0];
 //int r=an[an.length-1];
 //int []b=new int[an.length/2];
@@ -37,7 +66,7 @@ public class TaskC3 {
 //    for (int i = 0; i < b.length; i++) // проверка первой половины поделенного массива
 //        System.out.print(b[i] + " ");
 //    System.out.println();
-
+//
 //
 //      for (int i=an.length-(an.length/2)+1;i<an.length;i++){
 //          int x=0;
@@ -50,9 +79,9 @@ public class TaskC3 {
 //           System.out.print( c[i] + " ");
 //       System.out.println();
 //
-//
-//
-//
+
+
+
 
 
 
@@ -64,32 +93,6 @@ public class TaskC3 {
             System.out.println(an[i]+" ");  */
 
 
-    }
 
-}
-/*
-    public static void main(String[] args) throws Exception {
-        Scanner sc = new Scanner(System.in);
-        ArrayList<Integer> orig = new ArrayList<Integer>();
-        int i;
-        for (i = 0; i < 20; i++) {
-            int x = sc.nextInt();
-            orig.add(x);
-        }
-        ArrayList<Integer> sec = new ArrayList<Integer>();
-        ArrayList<Integer> third = new ArrayList<Integer>();
-        ArrayList<Integer> other = new ArrayList<Integer>();
 
-        for (int x = 0; x < 20; x++) {
-            Integer a = orig.get(x);
-            if (a % 3 == 0) third.add(a);
-
-            if (a % 3 != 0 & a % 2 != 0) other.add(a);
-        }
-
-        for (Integer aList : orig) System.out.println(aList);
-        for (Integer aList : sec) System.out.println(aList);
-
-    } }
-*/
 

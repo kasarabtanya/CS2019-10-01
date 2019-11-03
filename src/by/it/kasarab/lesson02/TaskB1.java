@@ -29,6 +29,7 @@ class TaskB1 {
         int a = sc.nextInt();
         int b = a * a;
         System.out.print(b);
-
+//        System.out.println();
+//    System.out.println(a + " в квадрате равно "+b);
     }
 }
