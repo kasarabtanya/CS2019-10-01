@@ -13,7 +13,7 @@ public class triangle {
         b = sc.nextInt();
         c = sc.nextInt();
         if ((a < 1 || a > 1000) || (b < 1 || b > 1000) || (c < 1 || c > 1000)) {
-            System.out.println("Стороны должны быть от 1 до 1000");
+            System.out.println("Стороны треугольника должны быть целыми числами от 1 до 1000");
         } else if ((b + c <= a) || ((a + c) <= b) || ((a + b) <= c)) {
             System.out.println("Одна из сторон слишком велика для построения треугольника");
         } else if ((a == b && a != c) || (a != c && b == c) || (a == c && b != c))
